@@ -6,4 +6,5 @@ module "s3-bucket" {
   bucket = S3
   bucket_prefix = mike
   policy = ok
-  request_payer = notme
+  request_payer = notime
+}

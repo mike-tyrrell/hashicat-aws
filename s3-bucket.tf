@@ -3,7 +3,7 @@ module "s3-bucket" {
   version = "1.17.0"
   # insert required variables here
   acceleration_status = "Enabled"
-  bucket = "mike-S3"
+  bucket = mike-S3
   bucket_prefix = "mike"
   policy = "verbose/specific"
   request_payer = "BucketOwner"
